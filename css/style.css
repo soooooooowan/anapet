@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+header{
+    width:100%;
+}
+
+#top{
+    width:1920px;
+}
+
+#right{
+/*     border: 1px solid #000; */
+    width:350px;
+    margin: 0 auto;
+    position: relative;
+    bottom:72px;
+    left:50px;
+}
+
+#right>ul{
+    display: flex;
+    justify-content: flex-end;
+    border:1px solid #000;
+
+}
+
+#right>ul>li>a{
+    color:#fff;
+    padding: 0 15px;
+    font-size: 12px;
+    font-family: "나눔스퀘어", sans-serif;
+}
+
+#logo{
+    width: 115px;
+    height: auto;
+    position: relative;
+    bottom:15px;
+    left:903px;
+}
+
+#left{
+    width:72px;
+    border:1px solid #000;
+}
+
+#headerIn{
+    width:940px;
+    border:1px solid #000;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+}
